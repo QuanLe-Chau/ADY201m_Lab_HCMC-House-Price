@@ -10,10 +10,10 @@ This project aims to predict house prices by scraping real-estate data in HCMC f
 
 Data is scraped from <ins>mogi.vn</ins>. This is a Vietnamese real estate platform that provides a comprehensive online marketplace for property buying, selling, and renting. Using function written in `scraping_data_from_mogi.py`, the raw data is stored in `hcmc_house_data.csv`. Including column:
 
-| Column | Process |
-| -- | -- |
-| Title | Unstructured Title from web users &rarr; Stored in object dtype for later process |
-| Date | Date string in DD/MM/YYYY format &rarr; Reformating date string into ISO 8601 standard (YYYY-MM-DD) |
+| Column | Raw form | Processing |
+| -- | -- | -- |
+| Title | Unstructured Title from web users | Stored in object dtype for later process |
+| Date | Date string in DD/MM/YYYY format | Reformating date string into ISO 8601 standard (YYYY-MM-DD) |
 |
 
 ## Data Wragling Process
