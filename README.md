@@ -14,7 +14,7 @@ Data is scraped from <ins>mogi.vn</ins>. This is a Vietnamese real estate platfo
 | -- | -- | -- |
 | Title | Unstructured Title from web users | Stored in object dtype for later process |
 | Date | Date string in DD/MM/YYYY format | Reformating date string into ISO 8601 standard (YYYY-MM-DD) |
-|
+| Bedroom |
 
 ## Data Wragling Process
 
